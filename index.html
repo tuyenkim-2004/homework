@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food management</title>
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="/style/index.css" />
+  </head>
+  <body>
+    <main class="main-app">
+      <h1 class="app-title">Food management</h1>
+
+      <div class="app-content">
+        <table class="food-table">
+          <thead>
+            <tr>
+              <th>Food Name</th>
+              <th>Category</th>
+              <th>Price</th>
+              <th>Calories</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="food-body"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <div id="edit-form">
+        <h2>Chỉnh sửa thông tin thực phẩm</h2>
+        <input type="hidden" id="food-id">
+        <label>Tên: <input type="text" id="food-name"></label><br>
+        <label>Thể loại: <input type="text" id="food-category"></label><br>
+        <label>Giá: <input type="text" id="food-price"></label><br>
+        <label>Calorie: <input type="text" id="food-calories"></label><br>
+        <button id="update-button">Cập nhật</button>
+        <button id="cancel-button">Hủy</button>
+    </div>
+
+    <!-- Javascript -->
+    <script src="/scriptt/index.js"></script>
+  </body>
+</html>

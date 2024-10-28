@@ -1,0 +1,11 @@
+@import url('./global.css');
+
+.app-title {
+  text-align: center;
+  color: white;
+}
+
+.app-content {
+  display: flex;
+  justify-content: center;
+}

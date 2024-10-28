@@ -1,0 +1,110 @@
+{
+  "foods": [
+    {
+      "name": "Margherita Pizza",
+      "category": "Italian",
+      "price": "19994.8",
+      "calories": "800",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Cheeseburger",
+      "category": "American",
+      "price": 9.99,
+      "description": "Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.",
+      "calories": 950,
+      "isVegetarian": false,
+      "rating": 4.3,
+      "imageUrl": "https://example.com/images/cheeseburger.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "price": 8.5,
+      "description": "Crisp romaine lettuce, croutons, and parmesan cheese with Caesar dressing.",
+      "calories": 350,
+      "isVegetarian": true,
+      "rating": 4,
+      "imageUrl": "https://example.com/images/caesar-salad.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Tikka Masala",
+      "category": "Indian",
+      "price": 14.5,
+      "description": "Grilled chicken chunks in a creamy spiced tomato curry sauce.",
+      "calories": 600,
+      "isVegetarian": false,
+      "rating": 4.7,
+      "imageUrl": "https://example.com/images/chicken-tikka-masala.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pad Thai",
+      "category": "Thai",
+      "price": 10.99,
+      "description": "Stir-fried rice noodles with shrimp, tofu, peanuts, and lime.",
+      "calories": 500,
+      "isVegetarian": false,
+      "rating": 4.6,
+      "imageUrl": "https://example.com/images/pad-thai.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sushi Platter",
+      "category": "Japanese",
+      "price": 18.99,
+      "description": "Assorted sushi rolls with fresh fish, rice, and seaweed.",
+      "calories": 450,
+      "isVegetarian": false,
+      "rating": 4.8,
+      "imageUrl": "https://example.com/images/sushi-platter.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Vegetable Spring Rolls",
+      "category": "Appetizers",
+      "price": 5.99,
+      "description": "Crispy spring rolls filled with mixed vegetables, served with a dipping sauce.",
+      "calories": 200,
+      "isVegetarian": true,
+      "rating": 4.2,
+      "imageUrl": "https://example.com/images/vegetable-spring-rolls.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Spaghetti Carbonara",
+      "category": "Italian",
+      "price": 13.5,
+      "description": "Pasta with creamy sauce, pancetta, and parmesan cheese.",
+      "calories": 700,
+      "isVegetarian": false,
+      "rating": 4.4,
+      "imageUrl": "https://example.com/images/spaghetti-carbonara.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Falafel Wrap",
+      "category": "Middle Eastern",
+      "price": 7.99,
+      "description": "Wrap filled with falafel, hummus, cucumber, tomato, and tahini.",
+      "calories": 450,
+      "isVegetarian": true,
+      "rating": 4.3,
+      "imageUrl": "https://example.com/images/falafel-wrap.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Beef Burrito",
+      "category": "Mexican",
+      "price": 11,
+      "description": "Flour tortilla stuffed with seasoned beef, rice, beans, and cheese.",
+      "calories": 850,
+      "isVegetarian": false,
+      "rating": 4.5,
+      "imageUrl": "https://example.com/images/beef-burrito.jpg"
+    }
+  ]
+}
